@@ -5,6 +5,8 @@
            fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
   <remote  name="x86"
            fetch=".." />
+  <remote  name="Lance0312"
+           fetch="git://github.com/Lance0312/" />
   <default revision="gingerbread-mr4-release"
            remote="aosp"
            sync-j="4" />
@@ -15,7 +17,7 @@
   </project>
   <project path="kernel" name="kernel/common" remote="x86" revision="android-2.6.39" />
   <project path="bionic" name="platform/bionic" remote="x86" revision="gingerbread-x86" />
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="gingerbread-x86" />
+  <project path="bootable/newinstaller" name="android-x86-newinstaller" remote="Lance0312" revision="gingerbread-x86" />
   <project path="development" name="platform/development" remote="x86" revision="gingerbread-x86" />
   <project path="device/amd/persimmon" name="device/amd/persimmon" remote="x86" revision="gingerbread-x86" />
   <project path="device/asus/eeepc" name="device/asus/eeepc" remote="x86" revision="gingerbread-x86" />
